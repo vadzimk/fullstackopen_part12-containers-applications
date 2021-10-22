@@ -1,0 +1,14 @@
+Script started on 2021-10-21 17:12:55-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="140" LINES="111"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;ubu@UX430UQ: /mnt/d/fullstackopen_all/part12-containers-applications/script-answers[01;32mubu@UX430UQ[00m:[01;34m/mnt/d/fullstackopen_all/part12-containers-applications/script-answers[00m$ docker container run -it ubuntu bask[Kh
+]0;root@597b8b193add: /root@597b8b193add:/# [K]0;root@597b8b193add: /root@597b8b193add:/# mkdir /user  r/sc rc/app
+]0;root@597b8b193add: /root@597b8b193add:/# cd /usr/src/app
+]0;root@597b8b193add: /usr/src/approot@597b8b193add:/usr/src/app# touch index.js
+]0;root@597b8b193add: /usr/src/approot@597b8b193add:/usr/src/app# exit
+exit
+]0;ubu@UX430UQ: /mnt/d/fullstackopen_all/part12-containers-applications/script-answers[01;32mubu@UX430UQ[00m:[01;34m/mnt/d/fullstackopen_all/part12-containers-applications/script-answers[00m$ exit
+exit
+
+Script done on 2021-10-21 17:14:04-07:00 [COMMAND_EXIT_CODE="0"]

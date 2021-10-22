@@ -1,0 +1,41 @@
+Script started on 2021-10-21 17:14:42-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="140" LINES="111"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;ubu@UX430UQ: /mnt/d/fullstackopen_all/part12-containers-applications/script-answers[01;32mubu@UX430UQ[00m:[01;34m/mnt/d/fullstackopen_all/part12-containers-applications/script-answers[00m$ docker container[K[K[K[K[K[K[K[K[K[K[K[Ker container ls -;[Kl[Ka
+CONTAINER ID   IMAGE               COMMAND                  CREATED              STATUS                          PORTS                               NAMES
+597b8b193add   ubuntu              "bash"                   About a minute ago   Exited (0) About a minute ago                                       stupefied_gauss
+45b789646450   ubuntu              "bash"                   33 minutes ago       Up 10 minutes                                                       frosty_merkle
+0ed46b4e0ba7   ubuntu              "bash"                   37 minutes ago       Exited (0) 12 minutes ago                                           optimistic_williamson
+7aa37f2c41df   hello-world         "/hello"                 About an hour ago    Exited (0) About an hour ago                                        silly_aryabhata
+d4bf39df5289   docker101tutorial   "/docker-entrypoint.…"   3 months ago         Exited (255) 3 months ago       0.0.0.0:80->80/tcp, :::80->80/tcp   docker-tutorial
+7ae101a6199d   alpine/git          "git clone https://g…"   3 months ago         Exited (0) 3 months ago                                             repo
+]0;ubu@UX430UQ: /mnt/d/fullstackopen_all/part12-containers-applications/script-answers[01;32mubu@UX430UQ[00m:[01;34m/mnt/d/fullstackopen_all/part12-containers-applications/script-answers[00m$ docker start -i stuperfiel[Kd_gauss
+Error: No such container: stuperfied_gauss
+]0;ubu@UX430UQ: /mnt/d/fullstackopen_all/part12-containers-applications/script-answers[01;32mubu@UX430UQ[00m:[01;34m/mnt/d/fullstackopen_all/part12-containers-applications/script-answers[00m$ docker start -i stuperfied_gauss[K[K[K[K[K[K[K[K[K[K[K[K[K[Kuperfied_gauss
+Error: No such container: stuperfied_gauss
+]0;ubu@UX430UQ: /mnt/d/fullstackopen_all/part12-containers-applications/script-answers[01;32mubu@UX430UQ[00m:[01;34m/mnt/d/fullstackopen_all/part12-containers-applications/script-answers[00m$ docker start -i stuperfied_gauss[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kstupefied_gauss
+]0;root@597b8b193add: /root@597b8b193add:/# [K]0;root@597b8b193add: /root@597b8b193add:/# vim /usr/src/app/index.js
+bash: vim: command not found
+]0;root@597b8b193add: /root@597b8b193add:/# vi /user  r/src/app/index.js
+bash: vi: command not found
+]0;root@597b8b193add: /root@597b8b193add:/# nano /usr/src/app/index.js
+bash: nano: command not found
+]0;root@597b8b193add: /root@597b8b193add:/# [Kexit
+exit
+]0;ubu@UX430UQ: /mnt/d/fullstackopen_all/part12-containers-applications/script-answers[01;32mubu@UX430UQ[00m:[01;34m/mnt/d/fullstackopen_all/part12-containers-applications/script-answers[00m$ docker start -i stupefied_gauss[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfrosty_merkle
+exit
+exit
+]0;ubu@UX430UQ: /mnt/d/fullstackopen_all/part12-containers-applications/script-answers[01;32mubu@UX430UQ[00m:[01;34m/mnt/d/fullstackopen_all/part12-containers-applications/script-answers[00m$ docker start -i frosty_merkle
+]0;root@45b789646450: /root@45b789646450:/# [K]0;root@45b789646450: /root@45b789646450:/# nano /usr/ser  rc/app/indexjs  .js 
+[?2004h[?1049h[22;0;0t[1;111r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[109;64H(B[0;7m[ Reading... ](B[m[109;63H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 4.8                                               /usr/src/app/index.js                                                          [1;139H(B[m[110d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[111d(B[0;7m^X(B[m Exit[111;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7m^Q(B[m Where Was[109d[2d[39;49m(B[m[?12l[?25h[?25l[1;131H(B[0;7mModified(B[m[2dc[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25ls[?12l[?25h[?25lo[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25l([?12l[?25h[?25l'[?12l[?25h[?25lH[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l o[?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l W[?12l[?25h[?25lo[?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25lr[109d[K[2;23H[?12l[?25h[?25ll[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25l[2;13H(B[0;1m[35m'Hello World'[39m(B[m[?12l[?25h[?25l)[?12l[?25h[?25l[109d(B[0;7mSave modified buffer?                                                                                                                       [110;1H Y(B[m Yes[K[111d(B[0;7m N(B[m No  [111;16H (B[0;7m^C(B[m Cancel[K[109;23H[?12l[?25h[?25l[110d(B[0;7m^G(B[m Get Help[110;36H(B[0;7mM-D(B[m DOS Format[110;71H(B[0;7mM-A(B[m Append[110;106H(B[0;7mM-B(B[m Backup File[111d(B[0;7m^C(B[m Cancel[17G         [111;36H(B[0;7mM-M(B[m Mac Format[111;71H(B[0;7mM-P(B[m Prepend[111;106H(B[0;7m^T(B[m To Files[109d(B[0;7mFile Name to Write: /usr/src/app/index.js(B[m[109;42H[?12l[?25h[?25l[109;63H[1K (B[0;7m[ Writing... ](B[m[K[1;131H(B[0;7m        (B[m[109;63H(B[0;7m[ Wrote 1 line ](B[m[J[111d[?12l[?25h[111;1H[?1049l[23;0;0t[?1l>[?2004l]0;root@45b789646450: /root@45b789646450:/# [Kless /usr/src/app/ine dex.sj  js
+bash: less: command not found
+]0;root@45b789646450: /root@45b789646450:/# [Knano    less /usr/src/app/index.js
+bash: less: command not found
+]0;root@45b789646450: /root@45b789646450:/# [Kless /usr/src/app/index.jsnano /usr/src/app/index.js 
+[?2004h[?1049h[22;0;0t[1;111r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[109;64H(B[0;7m[ Reading... ](B[m[109;63H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 4.8                                               /usr/src/app/index.js                                                          [1;139H(B[m[110d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[111d(B[0;7m^X(B[m Exit[111;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7m^Q(B[m Where Was[109d[2d[39;49m(B[mconsole.log((B[0;1m[35m'Hello World'[39m(B[m)[?12l[?25h[?25l[109d[J[111d[?12l[?25h[111;1H[?1049l[23;0;0t[?1l>[?2004l]0;root@45b789646450: /root@45b789646450:/# [Kexit
+exit
+]0;ubu@UX430UQ: /mnt/d/fullstackopen_all/part12-containers-applications/script-answers[01;32mubu@UX430UQ[00m:[01;34m/mnt/d/fullstackopen_all/part12-containers-applications/script-answers[00m$ exit
+exit
+
+Script done on 2021-10-21 17:20:02-07:00 [COMMAND_EXIT_CODE="0"]
