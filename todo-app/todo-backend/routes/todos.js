@@ -11,7 +11,7 @@ router.get('/', async (_, res) => {
 
 /* POST todo to listing. */
 router.post('/', async (req, res) => {
-  const todoCounter = await redis.getAsync('todo-count') || 0;
+  const todoCounter =  Number(await redis.getAsync('todo-count')) || 0;
   await redis.setAsync('todo-count', todoCounter + 1)
 
   const todo = await Todo.create({
