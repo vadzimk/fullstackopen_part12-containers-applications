@@ -6,3 +6,4 @@ RUN npm ci --only=production
 USER node
 ENV DEBUG=app:*
 CMD ["npm", "start"]
+
