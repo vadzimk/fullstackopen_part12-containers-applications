@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <TodoView />
-      test reload
+      test reload2
     </div>
   );
 }
