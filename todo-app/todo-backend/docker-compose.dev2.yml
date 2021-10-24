@@ -16,7 +16,7 @@ services:
 
 
   mongo:
-    container_name: mongo-container
+    container_name: mongo-container # probably container name is  unnecessary, can be reached by service name
     image: mongo
     ports:
       - 3456:27017
